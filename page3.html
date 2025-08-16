@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>COMMENTS</title>
+
+    <!-- Favicon with initials JR -->
+    <link rel="icon" href="data:image/svg+xml,
+        %3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E
+        %3Crect width='64' height='64' fill='aqua'/%3E
+        %3Ctext x='50%' y='50%' font-size='28' font-family='Arial' fill='black' text-anchor='middle' dominant-baseline='middle'%3EJR%3C/text%3E
+        %3C/svg%3E" type="image/svg+xml">
+
+    <style>
+        .nav-links {
+            background-color: aqua;
+            padding: 10px;
+        }
+   
+        .nav-links a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: black;
+        }
+
+        form {
+            margin-top: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body style="margin: 0px; background-color:rgb(220, 237, 248);">
+
+    <center>
+        <div class="nav-links">
+            <a href="index.html">HOME</a>
+            <a href="page2.html">PLACES TO HANG OUT</a>
+            <a href="page3.html">COMMENTS</a>
+            <a href="page4.html">ABOUT</a>
+        </div>
+    </center>
+<center>
+<p>Please leave a comment here about my website.</p>
+
+<form action="https://api.web3forms.com/submit" method="POST">
+     <input type="hidden" name="access_key" value="2bd7f248-8e01-4942-815e-0749e451cdaa">
+    <label>Name</label><br>
+    <input type="text" name="name"><br><br>
+
+    <label>Comment</label><br>
+    <textarea name="comment" rows="5" cols="40"></textarea><br><br>
+
+    <input type="submit" value="submit">
+</form><center>
+    </body>
+    </html>
